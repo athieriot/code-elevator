@@ -1,0 +1,30 @@
+{
+  "name": "cabin-server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeanlaurent/code-elevator"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jeanlaurent/code-elevator/issues"
+  },
+  "dependencies": {
+    "hapi": "~1.9.4"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-hapi": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
