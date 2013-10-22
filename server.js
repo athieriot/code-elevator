@@ -1,5 +1,5 @@
 var Hapi = require('hapi');
-var server = Hapi.createServer('localhost', 8000);
+var server = Hapi.createServer('localhost', process.env.PORT || 8000);
 
 buildingSize = 5;
 var index = 0;
